@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
     <!-- bootstrap style sheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light rounded d-flex align-items-center" style="background-color: #F8F9FA;">
+      
+        <nav class="navbar navbar-expand-lg navbar-light rounded d-flex align-items-center fixed-top">
             <div class="container-fluid">
                 <a href=""><img src="images/logo.png" class="me-4" alt=""></a>
               <!-- <a class="navbar-brand" href="#">Home</a> -->
@@ -19,10 +21,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Shoes</a>
-                  <a class="nav-link" href="#">Backpack</a>
-                  <a class="nav-link" href="#">Subscribe</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
+                  <a class="nav-link" href="#subscribe">Subscribe</a>
                   
                 </div>
               </div>
@@ -40,7 +42,7 @@
 
                         </p>
                         <h1>420$</h1>
-                        <button class="btn btn-warning">Buy Now</button>
+                        <button class="btn panda-btn">Buy Now</button>
                       </div>
                       <div class="col-lg-5">  <img src="images/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
                     </div>
@@ -54,7 +56,7 @@
   
                           </p>
                           <h1>420$</h1>
-                          <button class="btn btn-warning">Buy Now</button>
+                          <button class="btn panda-btn">Buy Now</button>
                         </div>
                         <div class="col-lg-5">  <img src="images/banner-images/tv.png" class="d-block w-100" alt="..."></div>
                       </div>
@@ -67,7 +69,7 @@
   
                           </p>
                           <h1>420$</h1>
-                          <button class="btn btn-warning">Buy Now</button>
+                          <button class="btn panda-btn">Buy Now</button>
                         </div>
                         <div class="col-lg-5">  <img src="images/banner-images/xbox.png" class="d-block w-100" alt="..."></div>
                       </div>
@@ -83,9 +85,10 @@
                 </button>
               </div>
           </div>
+       
     </header>
    <main>
-     <section class="container">
+     <section class="container panda-categories">
       
       
         <div class="row g-4">
@@ -115,50 +118,51 @@
       
      </section>
      <!-- bag catagories -->
-     <section class="container my-5">
-      <h2>Bags</h2>
+     <section class="container my-5" id="shoes">
+      <h2>Shoes</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 ">
       
         <div class="col-lg-4 col-md-6 col-12 ">
           <div class="card h-100 border-0 shadow p-3 mb-5 bg-body rounded">
-            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Their bags</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-12">
           <div class="card h-100 border-0 shadow p-3 mb-5 bg-body rounded">
-            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Mithun's bag</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-12">
           <div class="card h-100 border-0 shadow p-3 mb-5 bg-body rounded">
-            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Your's bag</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
       </div>
      </section>
-     <section class="container my-5">
-      <h2>Bags</h2>
+     <!-- backpack -->
+     <section class="container my-5" id="backpack">
+      <h2>Backpack</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 ">
       
         <div class="col-lg-4 col-md-6 col-12 ">
@@ -169,7 +173,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
@@ -181,7 +185,7 @@
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
@@ -193,13 +197,27 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div >
-              <button class="btn btn-warning m-4">Buy now</button>
+              <button class="btn panda-btn m-4">Buy now</button>
             </div>
           </div>
         </div>
       </div>
+     </section>
+
+     <!-- subscribe -->
+
+     <section id="subscribe" style="height: 300px;" class="container my-5  d-flex justify-content-center align-items-center rounded-3 panda-bg-color">
+       <div id="subscribe">
+         <h1>Get in touch</h1>
+         <p><small>Get updates on sales, specials and more</small></p>
+         <input class="form-control" type="Input your Email"> <br>
+         <button class="btn panda-btn">Subscribe</button>
+       </div>
      </section>
    </main>
+   <footer class="container text-center my-5">
+     <small class="">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+   </footer>
 
 
 
